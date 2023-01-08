@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Astrophysics, Deep Learning, Data Science
-
+subtitle: Astrophysics & Artificial Intelligence
 profile:
   align: right
   image: prof_pic.jpg
