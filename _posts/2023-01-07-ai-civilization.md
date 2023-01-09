@@ -6,7 +6,7 @@ description: Sustaining civilizational innovations will upend economies; disrupt
 tags: ai science progress ai-safety
 categories: writings
 ---
-Something must be done, and a computer should do it for us. If it’s a simple task, like taking inventory of office supplies, we can write a software program that codes explicit rules telling the computer what to do:
+Something must be done, and a computer should do it for us. If it’s a simple task, like tracking a database of office supplies, we can write a software program that codes explicit rules telling the computer what to do:
 
 {% highlight python %}
 num_staplers = 7
