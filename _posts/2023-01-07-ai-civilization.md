@@ -59,7 +59,7 @@ Increasingly powerful AI systems trained using machine learning will transform c
 
 Human civilization provides many benefits, but those benefits aren’t evenly distributed. What I call a sustaining innovation for civilization (to adapt [Clay Christiansen’s terms](https://en.wikipedia.org/wiki/Disruptive_innovation)) improves the world in essence by making available to everyone what the elite already have, and enhancing the lives of the elite at most a little.
 
-Imagine yourself scratching out a precarious sustenance as a medieval peasant farmer circa 1500. One day, a genie appears and magically transforms you into a landed lord. Hundreds of serfs now grow your crops, while dozens of servants prepare your food, weave your clothes, heat your home. You can live your life free from survival’s pressing needs.
+Imagine yourself scratching out a precarious sustenance as a medieval peasant farmer circa 1500. One day, a genie appears and magically transforms you into a landed noble. Hundreds of serfs now grow your crops, while dozens of servants prepare your food, weave your clothes, heat your home. You can live your life free from survival’s pressing needs.
 
 Suppose the genie now turns you into a modern-day middle-class American. In terms of daily necessities, you can get everything you had before and more from the local mall and grocery store. But now the nearest city is a half hour’s drive, not a day’s journey; another continent is a day’s flight, not six months’ sail. You can freely criticize both king and pope; learn about genes, governments, and galaxies; survive smallpox; eat coffee, chocolate, french fries, and sushi. You have access to books, ballots, and birth control.
 
