@@ -11,13 +11,14 @@ nav_order: 0
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<h1>journal articles</h1>
-{%- for y in page.article_years %}
+<h1>peer-reviewed papers</h1>
+{% for y in page.article_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @article[year={{y}}]* %}
 {% endfor %}
-<h1>selected conference proceedings</h1>
-{%- for y in page.proceedings_years %}
+
+<h1>selected non-peer-reviewed papers</h1>
+{% for y in page.proceedings_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @inproceedings[year={{y}}]* %}
 {% endfor %}
