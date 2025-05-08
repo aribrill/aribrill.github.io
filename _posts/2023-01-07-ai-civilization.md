@@ -6,14 +6,15 @@ description: Sustaining civilizational innovations will upend economies; disrupt
 tags: ai science progress ai-safety
 categories: writings
 ---
+
 Something must be done, and a computer should do it for us. If it’s a simple task, like tracking a database of office supplies, we can write a software program that codes explicit rules telling the computer what to do:
 
-{% highlight python %}
+```python
 num_staplers = 7
 num_paperclips = num_staplers + 4
 while num_paperclips > 10:
-	num_paperclips += 1
-{% endhighlight %}
+    num_paperclips += 1
+```
 
 But what if the task is complex, like identifying dog breeds, writing a poem, or winning a game of chess? In these cases, we might not know good rules to code. Instead, we can teach the computer to learn the rules itself. This is the paradigm of machine learning, the bedrock of modern artificial intelligence (AI) systems like [ChatGPT](https://openai.com/blog/chatgpt/), [Stable Diffusion](https://stablediffusionweb.com/), and [AlphaGo Zero](https://www.deepmind.com/blog/alphago-zero-starting-from-scratch). In machine learning, an AI learns what to do by training on a dataset of examples. The AI model itself is a giant mathematical function, containing perhaps billions of parameters that must be learned. For this to work, we must provide three things: a training method, a training dataset, and lots of computing power.
 
@@ -41,13 +42,13 @@ Label: "darling"
 
 SSL requires the AI to learn the underlying patterns in the training data, causing it to encode knowledge that can range from spelling and grammar to historical allusions and abstract reasoning. By virtue of its training task, the AI faithfully replicates the structure of the input data. It doesn’t judge like humans do, and will happily generate mediocrity as well as genius. A state-of-the-art strategy to get high-quality output from an SSL-trained AI is peppering its instructions with incantations like "top-rated", "award-winning", "hyper-realistic", and "trending on ArtStation", hoping it gives you something impressive.
 
-AI trained using SSL predicts what *is*, with no values or goals to tell it what *ought to be*. To create AI with goals, we can use reinforcement learning. In reinforcement learning, we provide the AI feedback on its actions instead of specifying labels. I certainly don’t know the best chess moves, and even Magnus Carlsen errs, but giving feedback to a chess-playing AI is easy: win the game!
+AI trained using SSL predicts what _is_, with no values or goals to tell it what _ought to be_. To create AI with goals, we can use reinforcement learning. In reinforcement learning, we provide the AI feedback on its actions instead of specifying labels. I certainly don’t know the best chess moves, and even Magnus Carlsen errs, but giving feedback to a chess-playing AI is easy: win the game!
 
 Reinforcement learning is generally data-hungry and feedback-sparse: an entire chess game boils down to one bit of information. As reward for its difficulty, it can create AI systems that exceed the bounds of human guidance and achievement. Reinforcement learning can also be used to train AI to emulate human values. ChatGPT uses a method called Reinforcement Learning from Human Feedback ([RLHF](https://arxiv.org/abs/1706.03741)), learning from human ratings of its responses to provide answers that appear more helpful, harmless, and honest.
 
-Whether with supervised, unsupervised, or reinforcement learning, the art of machine learning is to create a system that generalizes the training data. It shouldn’t perfectly memorize what’s been seen, but instead infer simple underlying patterns that predict the never-before-seen. To do this, of course, there really must exist some simple underlying patterns. An ultimate AI given unlimited data and processor power still couldn’t predict [random numbers](https://www.amazon.com/Million-Random-Digits-Normal-Deviates/dp/0833030477) better than chance. 
+Whether with supervised, unsupervised, or reinforcement learning, the art of machine learning is to create a system that generalizes the training data. It shouldn’t perfectly memorize what’s been seen, but instead infer simple underlying patterns that predict the never-before-seen. To do this, of course, there really must exist some simple underlying patterns. An ultimate AI given unlimited data and processor power still couldn’t predict [random numbers](https://www.amazon.com/Million-Random-Digits-Normal-Deviates/dp/0833030477) better than chance.
 
-Multiple patterns might explain the same data. Consider the simplest situation in machine learning, the *C. Elegans* of AI: fitting a line to some data points. Suppose that a completely hypothetical novel disease has struck Hypothestan, and the number of cases is rising: 
+Multiple patterns might explain the same data. Consider the simplest situation in machine learning, the _C. Elegans_ of AI: fitting a line to some data points. Suppose that a completely hypothetical novel disease has struck Hypothestan, and the number of cases is rising:
 
 <center>
 {% include figure.liquid loading="eager" path="assets/img/hypothetical_cases.jpg" width="500" class="img-fluid rounded z-depth-1" %}
@@ -55,7 +56,7 @@ Multiple patterns might explain the same data. Consider the simplest situation i
 
 Will case numbers continue to climb at the same rate? Explode exponentially? Level off and start to decrease? Multiple predictions could be fully compatible with the data seen so far. Past experience, parsimony, and expert knowledge might give guidance, but in the end the best model is the one that best predicts the unseen data – what happens next. Nature is the final test.
 
-Increasingly powerful AI systems trained using machine learning will transform civilization, but the kinds of transformations they will bring about aren’t all the same. Civilization provides us benefits: technology and medicine; art and philosophy; natural resources; scientific, economic, social, and political systems. AI can level up an existing benefit, doing what’s already done cheaper, faster, fairer, better: this is a *sustaining innovation for civilization*. Or AI can create an entirely new benefit, something new under the sun: this is a *disruptive innovation for civilization*. What occurs depends on the training data. Human-generated training data lead to sustaining civilizational innovations, while data sourced from the external world enable disruptive ones. Sustaining civilizational innovations will upend economies; disruptive civilizational innovations will reshape the world.
+Increasingly powerful AI systems trained using machine learning will transform civilization, but the kinds of transformations they will bring about aren’t all the same. Civilization provides us benefits: technology and medicine; art and philosophy; natural resources; scientific, economic, social, and political systems. AI can level up an existing benefit, doing what’s already done cheaper, faster, fairer, better: this is a _sustaining innovation for civilization_. Or AI can create an entirely new benefit, something new under the sun: this is a _disruptive innovation for civilization_. What occurs depends on the training data. Human-generated training data lead to sustaining civilizational innovations, while data sourced from the external world enable disruptive ones. Sustaining civilizational innovations will upend economies; disruptive civilizational innovations will reshape the world.
 
 Human civilization provides many benefits, but those benefits aren’t evenly distributed. What I call a sustaining innovation for civilization (to adapt [Clay Christiansen’s terms](https://en.wikipedia.org/wiki/Disruptive_innovation)) improves the world in essence by making available to everyone what the elite already have, and enhancing the lives of the elite at most a little.
 
@@ -75,7 +76,7 @@ If two theories make the same predictions, the simpler theory is [better](https:
 
 Generative AI models like ChatGPT, [DALL-E](https://openai.com/dall-e-2/), and Stable Diffusion are largely sustaining for civilization. While the specific text and images they generate are new to humanity, the ability to generate them is not. Human authors and artists create comparable content. These models are civilizationally sustaining because their training data are human-made. It’s true their inputs may refer to things in the world: text mentions facts like the quadratic formula and George Washington’s birthday, and images include photos of garter snakes and mixing bowls. But these references are mediated entirely through human representations, unrooted in objective experience. The concepts aren’t connected to a predictive model of the external world. This could change in the future if language or image models are embedded within larger AI systems that do interact directly with the real world. For now, however, even purely sustaining AI systems can have massive economic and societal impact.
 
-First, AI is software. The upfront cost to develop and train an AI model may be high, but the marginal cost to run it is very low – perhaps not zero, but close enough compared to the cost of human labor so as to represent a qualitative shift enabling new business models and institutions. Automation can make processes faster, highly scalable, and less prone to mistakes, biases, and arbitrary delays. 
+First, AI is software. The upfront cost to develop and train an AI model may be high, but the marginal cost to run it is very low – perhaps not zero, but close enough compared to the cost of human labor so as to represent a qualitative shift enabling new business models and institutions. Automation can make processes faster, highly scalable, and less prone to mistakes, biases, and arbitrary delays.
 
 AI harnesses collective wisdom. In many cases, an AI model trained on a massive, diverse dataset can exceed the performance of any individual human. If your doctor diagnoses you with cancer, you might seek a second opinion; the advice of a panel of expert radiologists would be better yet; a hypothetical AI trained with knowledge of every cancer screening ever done might be best of all. AI’s improvement here comes from canceling out the idiosyncratic biases and gaps in experience we all have as individuals, equaling what humanity could accomplish if we could put our heads together.
 

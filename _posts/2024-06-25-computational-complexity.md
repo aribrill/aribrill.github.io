@@ -6,6 +6,7 @@ description: To predict AI's impact, quantify its computational efficiency.
 tags: ai ai-safety computer-science
 categories: writings
 ---
+
 _This post was originally published on [LessWrong](https://www.lesswrong.com/posts/HxHYPJoaWD8AjaHCk/computational-complexity-as-an-intuition-pump-for-llm)._
 
 With sufficient scale and scaffolding, LLMs will improve without bound on all tasks to become superhuman AGI, to the extent they haven’t already. No, wait! LLMs are dead-end pattern-matching machines fundamentally incapable of general reasoning and novel problem solving. Which is it?
