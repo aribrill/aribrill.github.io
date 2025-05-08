@@ -21,13 +21,13 @@ There are three basic kinds of training methods in machine learning: supervised 
 
 Input:
 
-{% include figure.html path="assets/img/norfolk_terrier.png" width="200" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/norfolk_terrier.png" width="200" class="img-fluid rounded z-depth-1" %}
 
 Label: "Norfolk Terrier"
 
 Input:
 
-{% include figure.html path="assets/img/norwich_terrier.png" width="200" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/norwich_terrier.png" width="200" class="img-fluid rounded z-depth-1" %}
 
 Label: "Norwich Terrier"
 
@@ -50,7 +50,7 @@ Whether with supervised, unsupervised, or reinforcement learning, the art of mac
 Multiple patterns might explain the same data. Consider the simplest situation in machine learning, the *C. Elegans* of AI: fitting a line to some data points. Suppose that a completely hypothetical novel disease has struck Hypothestan, and the number of cases is rising: 
 
 <center>
-{% include figure.html path="assets/img/hypothetical_cases.jpg" width="500" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/hypothetical_cases.jpg" width="500" class="img-fluid rounded z-depth-1" %}
 </center>
 
 Will case numbers continue to climb at the same rate? Explode exponentially? Level off and start to decrease? Multiple predictions could be fully compatible with the data seen so far. Past experience, parsimony, and expert knowledge might give guidance, but in the end the best model is the one that best predicts the unseen data – what happens next. Nature is the final test.
