@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an independent AI safety researcher working to improve humanity's scientific knowledge of advanced AI systems. My research currently focuses on creating mathematical and empirical models to study how AI systems develop internal representations of the world. My work is supported by a grant from the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) (EA Funds).
+I'm an AI safety researcher working to improve humanity's scientific knowledge of advanced AI systems. My research focuses on creating mathematical and empirical models to study how AI systems develop internal representations of the world. I'm currently a Research Affiliate at [Principles of Intelligence](https://pibbss.ai/). My work has been supported by the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future).
 
 Previously, I was a NASA Postdoctoral Program Fellow at NASA Goddard Space Flight Center. At NASA, I used deep learning and statistical analysis to investigate high-energy extragalactic astrophysics, focusing on modeling the variability of gamma-ray emission powered by supermassive black holes.
 
