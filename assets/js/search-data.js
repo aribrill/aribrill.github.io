@@ -73,6 +73,11 @@ ninja.data = [{
           description: "We examine the effect of weight decay on the fractal structure of belief state representations in a transformer’s residual stream, finding that models trained with increasing weight decay coefficients learn increasingly coarse-grained belief state representations.3rd Place, Apart Research Computational Mechanics Hackathon, June 2024",
           section: "Projects",handler: () => {
               window.location.href = "/projects/comp_mech/";
+            },},{id: "projects-ai-safety-x-physics-grand-challenge",
+          title: 'AI Safety x Physics Grand Challenge',
+          description: "I curated scientific directions for and helped run a hackathon that produced 21 research projects.Area Chair (Contractor), Apart Research, July 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hackathon/";
             },},{id: "projects-investigating-shortcuts-to-automata-in-gridworld",
           title: 'Investigating Shortcuts to Automata in Gridworld',
           description: "We investigated shortcut solutions (sublinear depth) for simulating automata with Transformers, finding that the networks can learn algorithms resembling theoretical shortcut solutions for Gridworld-9.REMIX Research Residency, Redwood Research, January 2023",
