@@ -83,6 +83,11 @@ ninja.data = [{
           description: "We investigated shortcut solutions (sublinear depth) for simulating automata with Transformers, finding that the networks can learn algorithms resembling theoretical shortcut solutions for Gridworld-9.REMIX Research Residency, Redwood Research, January 2023",
           section: "Projects",handler: () => {
               window.location.href = "/projects/remix/";
+            },},{id: "projects-neural-scaling-laws-emerging-from-deep-data-structure",
+          title: 'Neural Scaling Laws Emerging from Deep Data Structure',
+          description: "I mentored a project testing theoretical predictions of neural scaling laws resulting from embedding percolation clusters into high-dimensional spaces and training machine learning models on the fractal data structures.Mentor, Supervised Program for Alignment Research (SPAR), Spring 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/spar/";
             },},{
         id: 'social-email',
         title: 'email',
