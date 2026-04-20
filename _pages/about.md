@@ -26,7 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an AI safety researcher working to improve humanity's scientific knowledge of advanced AI systems. My research focuses on creating mathematical and empirical models to study how AI systems develop internal representations of the world. I'm currently a Research Affiliate at [Principles of Intelligence](https://pibbss.ai/).
+I'm an AI safety researcher working to improve humanity's scientific knowledge of advanced AI systems. My research focuses on creating mathematical and empirical models to study how AI systems develop internal representations of the world. 
+
+I lead Data Models & Validation for the [PIRAMID Project](https://princint.ai/piramid-project/) (Physics-Informed Research for Ambitious Mechanistic Interpretability Development) within [Principles of Intelligence](https://pibbss.ai/).
 
 Previously, I was a NASA Postdoctoral Program Fellow at NASA Goddard Space Flight Center. At NASA, I used deep learning and statistical analysis to investigate high-energy extragalactic astrophysics, focusing on modeling the variability of gamma-ray emission powered by supermassive black holes.
 
