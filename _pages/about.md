@@ -33,4 +33,4 @@ Previously, I was a NASA Postdoctoral Program Fellow at NASA Goddard Space Fligh
 I completed my PhD in Physics at Columbia in 2021. For my [thesis](https://doi.org/10.7916/d8-jznf-8e64), I studied extremely variable blazars using very-high-energy gamma-ray telescopes and developed experimental control software and analysis methods using deep neural networks to improve next-generation instruments.
 Before that, I completed a B.S. in Physics at Yale in 2015.
 
-My research is supported by [Coefficient Giving](https://coefficientgiving.org/), and has previously been supported by the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future).
+My research is supported by [Coefficient Giving](https://coefficientgiving.org/) and the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) (EA Funds).
